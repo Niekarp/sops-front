@@ -1,27 +1,37 @@
-# Sops
+# SOPS / System oznaczania produktów spożywczych (Product Marking System)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.4.
+Web application for companies to register their products and generate QR codes for them.
 
-## Development server
+## Authors
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- Paweł Antoniuk
+- Oskar Dadan
+- Michał Szewczak
+  
+## Technology
 
-## Code scaffolding
+Angular 2+, Angular Materials
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Key features
 
-## Build
+- read about new events on homepage
+- register products
+- generate QR codes
+- download pdf with product summary
+- receive periodic emails with period summary
+- browse registered users, companies and their products
+- rate, comment and add products to favourites
+- see code scan history
+- manage your account
+- admin panels
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Gallery
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+<img src="readme images/home-page.jpg">
+<img src="readme images/manage-products.jpg">
+<img src="readme images/product-details.jpg">
+<img src="readme images/qr-code.jpg">
+<img src="readme images/report.jpg">
+<img src="readme images/scans.jpg">
+<img src="readme images/user-profile.jpg">
+<img src="readme images/users.jpg">
